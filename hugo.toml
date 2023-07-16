@@ -1,0 +1,24 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'PA2DK'
+theme = 'mainroad'
+
+[Params]
+  description = ""
+  copyright = "Dennis Koole"
+  pygmentsCodeFences = true
+  pygmentsUseClasses = true
+
+[Params.style.vars]
+  highlightColor = "#00107a" # Override highlight color
+  
+  # Override font-family sets
+  # Take care of different quotes OR escaping symbols in these params if necessary
+  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+  # Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[Params.logo]
+  title = "PA2DK"
+  subtitle = "Dutch amateur radio station"
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PA2DK</title>
+    <link>/</link>
+    <description>Recent content on PA2DK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Sun, 16 Jul 2023 15:18:15 +0200</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Welcome to my homepage. I&amp;rsquo;m active on the amateur bands since 2014.
+Former callsign: PD2DK (September 2014 - April 2015)
+Current Callsign: PA2DK (Since April 2015)
+Locator: JO21IX
+Mainly active on shortwave and 50mhz. Main interests are DXing, Contesting, /P activities and Building stuff.
+Main mode of operation is CW. Don&amp;rsquo;t talk about it, just do it!
+QSL via: Buro, Direct, LOTW
+I Prefer Paper QSL cards. At the moment (summer 2023) i do not have them in stock.</description>
+    </item>
+    
+  </channel>
+</rss>

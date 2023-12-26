@@ -1,24 +1,68 @@
-baseURL = '/'
-languageCode = 'en-us'
-title = 'PA2DK'
-theme = 'mainroad'
+baseurl = "/"
+DefaultContentLanguage = "en"
+title = "PA2DK"
+theme = "beautifulhugo"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
 
 [Params]
-  description = ""
-  copyright = "Dennis Koole"
-  pygmentsCodeFences = true
-  pygmentsUseClasses = true
+  subtitle = "Dutch Amateur Radio Station"
+  mainSections = []
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = false
+  comments = false
+  readingTime = false
+  wordCount = false
+  useHLJS = true
+  socialShare = false
+  delayDisqus = true
+  showRelatedPosts = true
+  hideAuthor = true
+  selfHosted = true
 
-[Params.style.vars]
-  highlightColor = "#00107a" # Override highlight color
-  
-  # Override font-family sets
-  # Take care of different quotes OR escaping symbols in these params if necessary
-  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
-  # Secondary font-family set responsible for pre, code, kbd, and samp tags font
-  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+[[Params.bigimg]]
+  src = "img/gpsdo.jpg"
+  desc = "GPSDO"
 
-[Params.logo]
-  title = "PA2DK"
-  subtitle = "Dutch amateur radio station"
+[Author]
+  name = "Dennis PA2DK"
 
+[[menu.main]]
+    name = "Home"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    identifier = "log"
+    name = "Log"
+    url = "page/log/"
+    weight = 2
+
+[[menu.main]]
+    parent = "log"
+    name = "PA2DK"
+    url = "page/log_pa2dk/"
+    weight = 1
+
+[[menu.main]]
+    parent = "log"
+    name = "PA2DK/P"
+    url = "page/log_pa2dk_p"
+    weight = 2
+
+[[menu.main]]
+    identifier = "Wiki"
+    name = "Wiki"
+    url = "https://wiki.pa2dk.nl"
+    hrefTargetBlank = true
+    weight = 3
+
+[markup.goldmark.renderer]
+unsafe = true
